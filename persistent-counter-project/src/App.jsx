@@ -11,7 +11,7 @@ const PersistentCounter = () => {
 
   return (
     <div className="counter-container">
-      <h1>Persistent Counter</h1>
+      <h1>Persistent Counter Without Re-Rendering</h1>
       <div className="counter-log">Current Count: {countRef.current}</div>
       <button className="counter-button" onClick={increment}>Increment</button>
     </div>
